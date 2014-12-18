@@ -127,12 +127,12 @@ nb:
       spree/zone:
         description: Beskrivelse
         name: Navn
-    errors: Feilmelding
-      models: Modell
+    errors:
+      models:
         spree/credit_card:
           attributes:
             base:
-              card_expired: Utløpsdato 
+              card_expired: Utløpsdato
     models:
       spree/address:
         one: Adresse
@@ -255,7 +255,7 @@ nb:
     account: Konto
     account_updated: Konto oppdatert!
     action: Hendelse
-    actions: Hendelser
+    actions:
       cancel: Avbryt
       continue: Fortsett
       create: Opprett
@@ -509,7 +509,7 @@ nb:
       one: 1 error prohibited this record from being saved
       other: ! '%{count} errors prohibited this record from being saved'
     event: Hendelse
-    events: Hendelser
+    events:
       spree:
         cart:
           add: Legg til i handlekurv
